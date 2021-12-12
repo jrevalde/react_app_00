@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 
 
 ReactDOM.render(
-    <div>
-        <h1>DEEZ NUTZ!</h1>
-
-        <p>CUMMY CUM CUM.</p>
-    </div>
-   
+    <App/>
   ,
   document.getElementById('root')
 );
